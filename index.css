@@ -1,0 +1,382 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Montserrat";
+}
+
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.flex{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+/*------------------------------*/
+
+.ret{
+	background: #E9E8E8;
+	width: 100%;
+	height: 1200px;
+	z-index: -999;
+	position: absolute;
+	top: 0;
+}
+
+header{
+	margin-top: 61px;
+}
+
+.logo{
+	width: 30%;
+}
+
+.menu {
+	width: 70%;
+	margin: 40px 0 0 0;
+	text-align: right;	
+}
+.menu li{
+	display: inline-block;
+	padding-right: 66px;
+}
+
+.mobile{
+	width: 60%;
+	display: none;
+	text-align: right;
+	margin: 40px 0 0 0;
+}
+/*------------------------------*/
+
+div.text{
+	width: 40%;
+}
+
+section.capa{
+	margin-top: 61px;
+}
+
+.text h1{
+	font-size: 60px;
+}
+.text p{
+	margin-top: 40px;
+	font-size: 20px;
+
+}
+
+.text input{
+	color: white;
+	background: #07ADD6;
+	margin-top: 66px;
+	margin-right: 27px;
+	width: 40%;
+	height: 40px;
+	border: 0;
+	font-size: 20px;
+}
+
+div.img-capa{
+	width: 60%;
+	text-align: right;
+}
+
+/*------------------------------*/
+
+section.cursos h1{
+	text-align: center;
+	margin-top: 120px;
+	margin-bottom: 89px;
+	font-size: 60px;
+}
+
+div.ret2{
+	width: 100%;
+	height: 410px;
+	z-index: -999;
+	background: #07ADD6;
+	position: absolute;
+	margin-top: 192px;
+}
+
+div.cards{
+	width: 20%;
+	height: 250px;
+	margin-left: 29px;
+	margin-bottom: 60px;
+	background: #E6E6E6;
+}
+div.container div.flex{
+	justify-content: center;
+}
+div.img-c{
+	width: 137px;
+	height: 137px;
+	background: #D9D9D9;
+	border-radius: 50%;
+	margin: 25px auto 0 auto;
+
+}
+
+.cards p{
+	text-align: center;
+	font-size: 30px;
+	margin-top: 15px;
+}
+
+/*------------------------------*/
+
+.trabs h1{
+	text-align: center;
+	font-size: 70px;
+	margin-top: 38px;
+}
+
+p.subt{
+	text-align: center;
+	font-size: 25px;
+	margin-bottom: 62px;
+}
+
+div.img-tb1{
+	max-width: 55%;
+	padding-right: 10%;
+}
+div.img-tb1 img{
+	width: 100%;
+}
+
+div.cont{
+	width: 35%;
+	position: relative;
+	top: 50px;
+	font-size: 30px;
+	text-align: justify;
+}
+
+div.cont p,div.cont img, div.cont2 p,div.cont2 img{
+	padding-top: 22px;
+}
+
+div.cont p.te1, div.cont2 p.te2{
+	color: #07ADD6;
+	width: 200px;
+	float: left;
+	display: inline-block;
+}
+
+div.cont img.im1, div.cont2 img.im2{
+	float: right;
+	margin-top: 30px;
+	width: 30%;
+}
+
+.flex-d{
+	justify-content: flex-end;
+}
+div.img-tb2{
+	max-width: 55%;
+	margin-top: 59px;
+	padding-left: 10%;
+}
+.img-tb2-r{
+	display: none;
+}
+div.img-tb2 img, .img-tb2-r img{
+	width: 100%;
+}
+
+div.cont2{
+	width: 35%;
+	position: relative;
+	top: 60px;
+	font-size: 30px;
+	text-align: justify;
+	margin-top: 59px;
+}
+
+/*------------------------------*/
+
+section.assi{
+	background: #07ADD6;
+	width: 100%;
+	height: 350px;
+	margin-top: 80px;
+}
+div.chamada{
+	width: 633px;
+	margin: 0px auto 0px auto;
+	padding-top: 54px;
+	padding-bottom: 69px;
+}
+
+div.chamada h1{
+	color: white;
+	font-size: 40px;
+	text-align: center;
+}
+
+form.cta{
+	text-align: center;
+}
+
+form.cta input[type=email]{
+	width: 389px;
+	height: 46px;
+	border: 0;
+	color: black;
+}
+
+form.cta input[type=submit]{
+	color: white;
+	background: #0D0D0D;
+	width: 182px;
+	height: 46px;
+	border: 0;
+}
+
+/*------------------------------*/
+footer{
+	background: #011216;
+	width: 100%;
+	height: 216px;
+	position: relative;
+	bottom: 0;
+}
+
+div.infos{
+	color: white;
+	padding-top: 90px;
+	display: flex; /* Configura layout flexível */
+    flex-direction: row; /* Alinha os itens em linha, um ao lado do outro */
+    gap: 116px;  /*Espaçamento entre os itens */
+}
+
+
+div.final{
+	color: white;
+	margin-top: 37px;
+	width: 100%;
+}
+
+div.traco{
+	background: white;
+	width: 100%;
+	height: 2px;
+	margin-bottom: 14px;
+}
+/*------------------------------*/
+
+@media screen and (max-width: 1000px){
+	.mobile{
+		display: inline-block;
+	}
+	.menu{
+		display: none;
+	}
+	div.img-capa{
+		display: none;
+	}
+	div.text{
+		width: 100%;
+	}
+	.text p{
+		text-align: center;
+		margin-right: 100px;
+		margin-left: 100px;
+	}
+	.text h1{
+		font-size: 40px;
+		text-align: center;
+	}
+	.text input{
+		width: 50%;
+		margin: 10px 0px 0px 25%;
+		font-size: 15px;
+	}
+
+	section.cursos h1{
+		font-size: 30px;
+	}
+
+	div.cards{
+		width: 100%;
+		margin-right: 29px;
+	}
+	div.ret2{
+		height: 1700px;
+	}
+
+	.trabs h1{
+		font-size: 30px;
+		margin-top: 90px;
+	}
+	p.subt{
+		font-size: 15px;
+	}
+	div.img-tb1{
+		max-width: 100%;
+		padding-right: 0%;
+		margin: 0 auto;
+	}
+	div.cont{
+		width: 90%;
+		margin: 0 auto;
+		font-size: 20px;
+	}
+	div.cont img.im1, div.cont2 img.im2{
+		margin-top: 5px;	
+	}
+	div.img-tb2{
+		display: none;
+	}
+	.img-tb2-r{
+		display: inline-block;
+		max-width: 100%;
+		margin: 59px auto;
+		padding-left: 0%;
+	}
+	div.cont2 {
+		width: 90%;
+		margin: 0 auto;
+		top:0;
+		font-size: 20px;
+	}
+
+	section.assi{
+		height: 300px;
+	}
+	div.chamada{
+		width: 100%;
+		padding-bottom: 29px;
+	}
+	div.chamada h1{
+		font-size: 20px;
+	}
+	form.cta input[type=email]{
+		margin-bottom: 20px;
+		padding-left: 20px;
+	}
+
+	footer{
+		height: 200px;
+	}
+	div.infos{
+		padding-top: 40px;
+		text-align: center;
+		flex-direction: column;
+		gap: 10px;
+	}
+	div.final{
+		text-align: center;
+	}
+
+}
+
+
