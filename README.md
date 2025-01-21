@@ -15,6 +15,6 @@ Uma pagina web para uma agencia ficticia.
 
 ![Image](https://github.com/user-attachments/assets/d34496a6-d975-4403-aafa-512e927b6de2)
 
-![Image](https://github.com/user-attachments/assets/99f86b28-d964-4bd8-9565-98b6de6b99eb)
+![Image](https://github.com/user-attachments/assets/942f9101-ff1b-4d50-831e-cc4a10bb62ea)
 
 ![Image](https://github.com/user-attachments/assets/5e08137b-240f-4917-a5ab-838a70ecd597)
